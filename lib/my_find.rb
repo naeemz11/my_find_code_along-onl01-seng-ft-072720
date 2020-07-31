@@ -8,5 +8,5 @@ return empty_arr.push(collection[counter]) if yield(collection[counter])
 counter += 1 
 
 end 
-  
+  empty_arr
 end 
