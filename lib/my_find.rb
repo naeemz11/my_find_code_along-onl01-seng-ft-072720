@@ -6,7 +6,7 @@ empty_arr= []
 while counter < collection.length
 empty_arr <<  yield(collection[counter])
 counter += 1 
-
+return collection[counter]
 end 
-  return collection[counter]
+  
 end 
