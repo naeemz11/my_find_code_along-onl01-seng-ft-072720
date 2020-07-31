@@ -1,5 +1,5 @@
 require 'pry'
-
+collection = (1..100).to_a
 def my_find(collection)
 empty_arr= []
   counter= 0
