@@ -8,6 +8,5 @@ empty_arr <<  yield(collection[counter])
 counter += 1 
 
 end 
-  return collection[counter] if yield(collection[counter])
-end
+  return collection[counter]
 end 
