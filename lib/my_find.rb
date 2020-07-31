@@ -1,7 +1,7 @@
 require 'pry'
 
 def my_find(collection)
-empty_arr=[ ]
+empty_arr=[]
   counter= 0
 while counter < collection.length
 return empty_arr << collection[counter] if yield(collection[counter])
