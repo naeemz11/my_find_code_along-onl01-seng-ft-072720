@@ -10,3 +10,4 @@ counter += 1
 end 
   return collection[counter] if yield(collection[counter])
 end
+end 
