@@ -4,9 +4,9 @@ def my_find(collection)
 empty_arr= []
   counter= 0
 while counter < collection.length
-empty_arr <<  yield(collection[counter])
+return empty_arr.push(collection[counter]) if yield(collection[counter])
 counter += 1 
-return collection[counter]
+
 end 
   
 end 
