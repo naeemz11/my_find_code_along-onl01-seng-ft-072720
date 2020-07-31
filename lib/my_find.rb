@@ -8,6 +8,6 @@ return empty_arr << collection[counter] if yield(collection[counter])
 counter += 1 
 
 end 
-  empty_arr
+  empty_arr.remove([])
 end 
 
