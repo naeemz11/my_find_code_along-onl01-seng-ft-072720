@@ -10,3 +10,5 @@ counter += 1
 end 
   empty_arr
 end 
+
+puts my_find(collection)
